@@ -33,8 +33,8 @@ module.exports = _.merge({}, peliasQuery.defaults, {
   'fuzzy:cutoff_frequency': 0.01,
   'fuzzy:fuzziness': 1,
   'fuzzy:boost': 1,
-  'fuzzy:prefix_length': 1,
-  'fuzzy:max_expansions': 10,
+  'fuzzy:prefix_length': 0,
+  'fuzzy:max_expansions': 25,
   'fuzzy:operator': 'and',
 
   'focus:function': 'exp',
